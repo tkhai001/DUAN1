@@ -18,8 +18,8 @@
             <div class="div_header_top_right_box">
                 <div class="user_option">
                         <?php
-                            if(isset($_SESSION['matk']) && ($_SESSION['matk'] > 0)){
-                                echo'<img src="/upload/avt/Ellipse 11.png" alt="">';
+                            if(isset($_SESSION['maNguoiDung']) && ($_SESSION['maNguoiDung'] > 0)){
+                                echo'<img src="/upload/avt/'.$_SESSION['hinhanh'].'" alt="">';
                                 echo'<a class="view-name" href="#">'.$_SESSION['hoten'].'</a>';
                             }else{
                                 echo'

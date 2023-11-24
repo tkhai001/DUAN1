@@ -17,8 +17,9 @@
 
             if(!empty($thongtin)){
                 $_SESSION['hoten'] = $thongtin['hoten'];
-                $_SESSION['matk'] = $thongtin['matk'];
+                $_SESSION['maNguoiDung'] = $thongtin['maNguoiDung'];
                 $_SESSION['email'] = $thongtin['email'];
+                $_SESSION['hinhanh'] = $thongtin['hinhanh'];
                 // $_SESSION['quyentruycap'] = $thongtin['quyentruycap'];
                 // if((isset($_SESSION['matk']) && ($_SESSION['matk'] > 0) && ($_SESSION['quyentruycap'] == "100"))){
                 //     header("Location: ?mod=page&act=dashboard");
