@@ -8,6 +8,12 @@
             case "user":
                 include_once 'controller/user.php';
                 break;
+            case "admin":
+                include_once 'controller/admin.php';
+                break;
+            case "pay":
+                include_once 'controller/pay.php';
+                break;
             default:
                 // include_once ;
                 break;
