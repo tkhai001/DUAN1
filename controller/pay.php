@@ -16,7 +16,7 @@
                 include_once 'model/conect.php';
 
                 include_once 'view/template_header.php';
-                include_once 'view/page_payok.html';
+                include_once 'view/page_payok.php';
                 include_once 'view/template_footer.php';
                 break;
             default:
